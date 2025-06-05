@@ -1,8 +1,14 @@
 {
+  "Pottery Barn": {
+    "email": "https://www.potterybarn.com/m/customer-service/communication-preferences.html"
+  },
   "T-Mobile": {
     "direct": "https://www.t-mobile.com/privacy-center/marketing-preferences/opt-out",
     "email": "https://www.t-mobile.com/privacy-center/marketing-preferences/opt-out",
     "phone": "https://www.t-mobile.com/privacy-center/marketing-preferences/opt-out",
     "sms": "https://www.t-mobile.com/privacy-center/marketing-preferences/opt-out"
+  },
+  "Valpak": {
+    "direct": "https://www.valpak.com/remove-address"
   }
 }
