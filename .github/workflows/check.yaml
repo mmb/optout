@@ -1,0 +1,29 @@
+---
+name: Check
+'on':
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    - cron: 6 6 * * 6
+
+permissions:
+  checks: write
+  contents: read
+
+jobs:
+  json:
+    name: json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check that optout.json is normalized
+        run: ./check.sh
+  shellcheck:
+    name: shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run shellcheck
+        run: find . -type f -name "*.sh" -exec shellcheck {} +
