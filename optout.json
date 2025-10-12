@@ -16,5 +16,10 @@
   },
   "Valpak": {
     "direct": "https://www.valpak.com/remove-address"
+  },
+  "Xfinity / Comcast Business": {
+    "direct": "https://pc2.mypreferences.com/Comcast/OptOut/Default.aspx",
+    "phone": "https://pc2.mypreferences.com/Comcast/OptOut/Default.aspx",
+    "sms": "https://pc2.mypreferences.com/Comcast/OptOut/Default.aspx"
   }
 }
