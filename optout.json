@@ -2,6 +2,10 @@
   "American Giant": {
     "direct": "https://www.american-giant.com/pages/opt-out"
   },
+  "Etsy": {
+    "direct": "https://www.etsy.com/your/account",
+    "phone": "https://www.etsy.com/your/account"
+  },
   "Papa John's UK": {
     "direct": "https://www.papajohns.co.uk/unsubscribe"
   },
